@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MoveitApplication {
 
 	public static void main(String[] args) {
+		System.err.println("Hi");
 		SpringApplication.run(MoveitApplication.class, args);
 	}
 
